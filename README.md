@@ -35,7 +35,28 @@ DrugInteractionChecker/
 │   ├── index.js  # Entry Point
 │── package.json  # Project Dependencies
 │── README.md  # Project Documentation
+🔧 Installation & Setup
 
+1️⃣ Clone the Repository
+
+git clone https://github.com/tsiondaniel11/drug-interaction-checker.git
+cd drug-interaction-checker
+
+2️⃣ Install Dependencies
+
+npm install
+# or
+yarn install
+
+3️⃣ Run the Development Server
+
+npm run dev
+# or
+yarn dev
+
+Now open http://localhost:5174// in your browser to use the app.
+
+🎨 UI Preview
 📌 How It Works
 
 Enter the names of two drugs.
