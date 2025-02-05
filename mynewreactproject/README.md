@@ -1,8 +1,47 @@
-# React + Vite
+# 💊 Drug Interaction Checker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
+The **Drug Interaction Checker** is a simple React application that allows users to check for potential interactions between two drugs. It utilizes a **hash map (JavaScript object)** to store predefined drug interactions and provides instant feedback on possible risks.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- ✅ **Instant Drug Interaction Check**
+- ✅ **User-friendly Interface**
+- ✅ **Modern Styling with CSS-in-JS**
+- ✅ **Fast and Lightweight**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Technologies Used
+- **React.js** (Functional Components & Hooks)
+- **JavaScript (ES6+)**
+- **CSS-in-JS for Styling**
+
+## 📂 Project Structure
+```
+DrugInteractionChecker/
+│── public/
+│   ├── index.html  # Main HTML file
+│   ├── favicon.ico  # Custom Favicon
+│── src/
+│   ├── components/
+│   │   ├── DrugInteractionChecker.js  # Main Component
+│   ├── App.js  # Root Component
+│   ├── index.js  # Entry Point
+│── package.json  # Project Dependencies
+│── README.md  # Project Documentation
+```
+## 📌 How It Works
+1. Enter the names of two drugs.
+2. Click **"Check Interaction"**.
+3. The app checks a predefined database for known interactions.
+4. If an interaction exists, it displays a warning message; otherwise, it states **"No known interaction."**
+
+## 🏆 Future Improvements
+- 🔄 **API Integration** for real-time drug interaction data
+- 🔍 **Auto-Suggestions** for drug names
+- 🎨 **Dark Mode Support**
+
+## 🙌 Contributing
+Feel free to submit **issues** or **pull requests**!
+
+💙 **Happy Coding!** 🚀
+
+
